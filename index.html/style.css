@@ -1,47 +1,37 @@
-.pain{
-    background-color: #aa5486;
-    color: white; 
-    border-radius: 5px; 
-    margin: 10px;
-    padding: 10px;
-  }
-  .contenue{
-     height: 40px;
-     width: 300px;
-     border: solid colorwhite;
-     padding: 5px 30px 60px 0px;
-     border-radius: 5px;
-  }
-  div h3{
-      text-decoration: underline;
-  }
-  div{
-      width: 50%;
-      margin: 5px;
-      background-color: grey;
-  }
-  body{
-      background-color: black;
-  }
-  h1{
-      color: white;
-  }
-  p{
-      color: white;
-  }
-  h3{
-      color: white;
-  }
-  #me{
-      color: darkgray;
-  }
-  #brin{
-    display: flex;
-    justify-content: center;
-  }
-  span{
-    color: #aa5486;
-  }
-  img{
-    height: 300px;
-  }
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mon portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <header class="header">
+            <a href="#" class="logo">Trinelle.</a>
+            <nav class="navbar">
+                <a href="#" class="active">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Portfolio</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+        <section class="home">
+            <div class="home-content">
+                <h1>Hi, i'm Trinelle Younga</h1>
+                <h3>Student</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum cum ipsam, qui quia odit doloribus perferendis, atque veniam facere, amet harum esse earum illo ut sapiente consectetur?</p>
+                <div class="btn-box">
+                    <a href="#">Hire me</a>
+                    <a href="#">Let's talk</a>
+                </div>
+            </div>
+            <div class="home-sci">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+
+                    </section>
+    </body>
+</html>
